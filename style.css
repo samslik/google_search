@@ -110,8 +110,11 @@ img{
 .left {
 	float: left;
 }
-.footer .left, .right ul {
+.left ul, .right ul {
 	padding: 0 10px 0 10px;
+	-webkit-margin-after: 0em;
+	-webkit-margin-before: 0em;
+	line-height: 39px;
 }
 .footer ul li {
 	display:inline;
