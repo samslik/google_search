@@ -42,26 +42,25 @@ img{
 	margin-top: 80px;
 }
 #search_bar {
+	display:block;
 	width: 600px;
-	height: 30px;
+	height: 35px;
 	border: 1px solid #c2c2c2;
 	margin:0 auto;
 }
 #search_bar:hover{
 	border-color: #666;
 }
-.search_button div{
+.button {
 	margin: 25px 0 30px 0;
 }
-.search_button div {
+.button {
 	background-color: #f2f2f2;
 	border: #dad7d7 solid 1px;
 	border-radius: 2px;
 	width: 120px;
-	height: 30px;
+	height: 40px;
 	display:inline-block;
-}
-.search_button div a {
 	color:#757575;
 	font-family: arial,sans-serif;
 	font-size: 13px;
@@ -69,13 +68,9 @@ img{
 	text-decoration: none;
 	line-height: 30px;
 }
-.search_button div:hover {
-	border-color:#757575;
-	color:black;
-
-}
-.search_button div a:hover {
-	color:black;
+.button:hover {
+	border-color:#c6c6c6;
+	color:#222222;
 }
 #polska{
 	font-size: 13px;
